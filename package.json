@@ -1,9 +1,9 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "Toon-Smartplug",
+  "name": "homebridge-toon-smartplug",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Support for disclosing Toon smart wallplugs to homekit",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "Toon Wallplug Plugin",
   "pluginType": "platform",
   "singular": true,
   "schema": {
