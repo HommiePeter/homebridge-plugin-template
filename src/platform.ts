@@ -17,10 +17,12 @@ export class ToonPlatform implements DynamicPlatformPlugin {
 
   constructor(
     public readonly log: Logger,
+    private logging: (format: string, message?: any) => void,
     public readonly config: PlatformConfig,
     public readonly api: API,
   ) {
     this.log.info('Finished initializing platform:', this.config.name);
+    this.logging('Finished initializing')
 
     // When this event is fired it means Homebridge has restored all cached accessories from disk.
     // Dynamic Platform plugins should only register new accessories after this event was fired,
