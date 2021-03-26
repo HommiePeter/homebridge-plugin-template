@@ -1,6 +1,6 @@
 import { Service, PlatformAccessory, CharacteristicValue } from 'homebridge';
 
-import { ToonPlatform } from './platform';
+import { ToonPlatformPlugin } from './platform';
 
 /**
  * Platform Accessory
@@ -20,7 +20,7 @@ export class ExamplePlatformAccessory {
   };
 
   constructor(
-    private readonly platform: ToonPlatform,
+    private readonly platform: ToonPlatformPlugin,
     private readonly accessory: PlatformAccessory,
   ) {
 
